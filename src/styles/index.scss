@@ -1,0 +1,42 @@
+@import "./constants";
+
+* {
+    padding: 0;
+    margin: 0;
+    // font-family: var(--Montserrat);
+}
+
+.cursor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: inherit;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    div{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: var(--white);
+    }
+}
+body {
+    cursor: url("../assets/cursor.png");
+    background-color: var(--dark);
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    border: 1px solid var(--white);
+}
+
+a{
+    text-decoration: none;
+}

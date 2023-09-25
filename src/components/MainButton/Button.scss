@@ -1,0 +1,22 @@
+.button {
+  cursor: pointer;
+  position: relative;
+  width: 100px;
+
+  img {
+    width: 270px;
+    position: absolute;
+  }
+
+  p {
+    color: white;
+    border-bottom: 2px solid white;
+  }
+
+  text-transform: uppercase;
+  display: flex;
+  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
