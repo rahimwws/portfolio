@@ -7,7 +7,7 @@ import crown from "../assets/crown.svg";
 
 export const About = () => {
   return (
-    <section className="About">
+    <section className="About" id="about">
       <div className="container">
         <div className="text">
           <div className="main-text">
@@ -30,7 +30,7 @@ export const About = () => {
           </p>
           <div className="skills">
             <div className="item">
-              <h2>1+</h2>
+              <h2>2</h2>
               <p>Years Experience</p>
             </div>
             <div className="item">
@@ -38,7 +38,7 @@ export const About = () => {
               <p>Project</p>
             </div>
             <div className="item">
-              <h2>3+</h2>
+              <h2>5+</h2>
               <p>Clients</p>
             </div>
           </div>

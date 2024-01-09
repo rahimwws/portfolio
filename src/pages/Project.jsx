@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 
 export const Project = () => {
   return (
-    <section className="project">
+    <section className="project" id="projects">
       <div className="main-text">
         <h1>
           Projects <span> .</span>
@@ -36,8 +36,6 @@ export const Project = () => {
               <p>UI/UX design</p>
             </Link>
           </div>
-        </div>
-        <div className="no-main-item">
           <div className="item">
             <Link to="https://nike-page-phi.vercel.app/">
               <img src={project_3} alt="" />

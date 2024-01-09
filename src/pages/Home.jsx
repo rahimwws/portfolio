@@ -7,11 +7,12 @@ import "../styles/home.scss";
 import crown from "../assets/crown.svg";
 import arrow from "../assets/arrow.svg";
 import Arrow from "../assets/Arrow 2.png";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
     <>
-        <Header></Header>
+      <Header></Header>
       <section className="Home">
         <div className="main-text">
           <h1>
@@ -39,7 +40,9 @@ export const Home = () => {
         <div className="container">
           <div className="item">
             <div className="link">
-              <span>instagram</span>
+              <Link to="mailto:rahimwwsdesign@gmail.com">
+                Gmail
+              </Link>
             </div>
             <p>
               I'm a versatile web designer specializing in website design and
@@ -64,7 +67,6 @@ export const Home = () => {
         <div>
           <p>
             <span>discuss your ideas</span> <span>discuss your ideas </span>
-            
           </p>
         </div>
       </div>

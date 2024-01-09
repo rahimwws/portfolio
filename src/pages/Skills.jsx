@@ -6,7 +6,7 @@ import arrow from "../assets/Arrow 3.svg";
 export const Skills = () => {
   const [skill, setSkill] = useState("none");
   return (
-    <section className="Skill">
+    <section className="Skill" id="skills">
       <div className="main-text">
         <h1>
           <span>My</span> Ski<span>ll</span>s <span>.</span>
@@ -18,16 +18,18 @@ export const Skills = () => {
       <div className="skills">
         <div className="item">
           <h2>
-            <span>ui/ux</span> design
+            <span className="front">front-end</span> development
           </h2>
           <button>
-            <img
-              src={arrow}
-              alt=""
-              // onClick={() =>
-              //   skill == "none" ? setSkill("skill-item") : setSkill("none")
-              // }
-            />
+            <img src={arrow} alt="" />
+          </button>
+        </div>
+        <div className="item">
+          <h2>
+            <span className="design">ui/ux</span> design
+          </h2>
+          <button>
+            <img src={arrow} alt="" />
           </button>
         </div>
         <div className={skill}>
@@ -35,7 +37,7 @@ export const Skills = () => {
             <p>Figma</p>
           </button>
         </div>
-       
+
         <div className="item">
           <h2>
             <span className="mobile">mobile</span> development

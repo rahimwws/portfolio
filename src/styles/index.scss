@@ -6,7 +6,11 @@
     // font-family: var(--Montserrat);
 }
 
-.cursor{
+html {
+    scroll-behavior: smooth;
+}
+
+.cursor {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,13 +19,15 @@
     background-color: inherit;
     border: 1px solid var(--white);
     border-radius: 50%;
-    div{
+
+    div {
         width: 10px;
         height: 10px;
         border-radius: 50%;
         background-color: var(--white);
     }
 }
+
 body {
     cursor: url("../assets/cursor.png");
     background-color: var(--dark);
@@ -37,6 +43,6 @@ body::-webkit-scrollbar-thumb {
     border: 1px solid var(--white);
 }
 
-a{
+a {
     text-decoration: none;
 }

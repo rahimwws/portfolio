@@ -15,7 +15,8 @@ header {
         color: var(--white);
         font-size: 28px;
         font-family: var(--Bayon);
-        p{
+        a,p{
+            color: var(--white);
             cursor: pointer;
             transition: all .5s;
             &:hover{

@@ -2,24 +2,25 @@ import React from "react";
 import "./Header.scss";
 
 import logo from "../../assets/logo.svg";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
     <header>
       <nav>
-        <p>about</p>
-        <p>skills</p>
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
       </nav>
       <img src={logo} />
       <nav>
-        <p>work</p>
-        <p>contact</p>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact</a>
       </nav>
       <nav className="mobileNav">
-        <p>about</p>
-        <p>skills</p>
-        <p>work</p>
-        <p>contact</p>
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact</a>
       </nav>
     </header>
   );

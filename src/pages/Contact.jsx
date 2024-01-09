@@ -8,7 +8,7 @@ import { Footer } from "../components/Footer/Footer";
 
 export const Contact = () => {
   return (
-    <section className="Contact">
+    <section className="Contact" id="contact">
       <div className="image">
         <div className="line"></div>
         <img src={stars} alt="" />
